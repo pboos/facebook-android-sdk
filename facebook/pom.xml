@@ -4,7 +4,7 @@
   <groupId>com.facebook</groupId>
   <artifactId>facebook-android-sdk</artifactId>
   <packaging>apklib</packaging>
-  <version>3.0</version>
+  <version>3.1-SNAPSHOT</version>
   <name>Facebook Android SDK</name>
   <description>Facebook Android SDK</description>
   <url>https://github.com/pboos/facebook-android-sdk</url>
