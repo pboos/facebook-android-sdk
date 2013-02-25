@@ -4,8 +4,47 @@
   <groupId>com.facebook</groupId>
   <artifactId>facebook-android-sdk</artifactId>
   <packaging>apklib</packaging>
-  <version>1.2.2</version>
+  <version>3.0-SNAPSHOT</version>
   <name>Facebook Android SDK</name>
+  <description>Facebook Android SDK</description>
+  <url>https://github.com/pboos/facebook-android-sdk</url>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>pboos-snapshots</id>
+      <url>http://maven.pboos.ch/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+    <repository>
+      <id>pboos-releases</id>
+      <url>http://maven.pboos.ch/nexus/content/repositories/releases</url>
+    </repository>
+  </distributionManagement>
+
+  <scm>
+    <url>git@github.com:pboos/facebook-android-sdk.git</url>
+    <connection>scm:git:git@github.com:pboos/facebook-android-sdk.git</connection>
+    <developerConnection>scm:git:git@github.com:pboos/facebook-android-sdk.git</developerConnection>
+    <tag>v3.0</tag>
+  </scm>
+  <developers>
+    <developer>
+      <name>Patrick Boos</name>
+      <email>patrickboos85@gmail.com</email>
+      <id>pboos</id>
+      <url>http://pboos.ch</url>
+      <timezone>+9</timezone>
+      <roles>
+        <role>developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
   <properties>
     <!-- build settings -->
